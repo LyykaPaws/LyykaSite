@@ -18,6 +18,7 @@ disableKinds = ["taxonomy", "term"]
 		{ telegram = "https://t.me/lyykasden" },
 	]
 
+
 [markup.highlight]
 	noClasses = false
 
