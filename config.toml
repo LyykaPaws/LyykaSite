@@ -1,3 +1,5 @@
+baseurl = "/"
+languageCode = 'en-us'
 title = 'LyykaPaws'
 theme = 'lynx'
 
