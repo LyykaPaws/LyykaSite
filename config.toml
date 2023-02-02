@@ -1,9 +1,9 @@
 baseurl = "/"
-languageCode = 'en-us'
 title = 'LyykaPaws'
 theme = 'lynx'
 
 enableEmoji = true
+disableKinds = ["taxonomy", "term"]
 
 [author]
 	name = "LyykaPaws"
