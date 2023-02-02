@@ -1,0 +1,24 @@
+title = 'LyykaPaws'
+theme = 'lynx'
+
+enableEmoji = true
+
+[author]
+	name = "LyykaPaws"
+	headline = "A simple test"
+	image = "dog.png"
+	links = [
+		{ github = "https://github.com/LyykaPaws" },
+		{ twitter = "https://twitter.com/LyykaPaws" },
+		{ twitch = "https://twitch.tv/lyykapaws" },
+		{ youtube = "https://youtube.com/@lyykapaws" },
+		{ discord = "https://discord.gg/tVyqBbT" },
+		{ telegram = "https://t.me/lyykasden" },
+	]
+
+[markup.highlight]
+	noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+	unsafe = true
