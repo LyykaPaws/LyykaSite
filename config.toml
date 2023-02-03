@@ -14,7 +14,8 @@ disableKinds = ["taxonomy", "term"]
 		{ youtube = "https://youtube.com/@lyykapaws" },
 		#{ discord = "https://discord.gg/tVyqBbT" },
 		#{ telegram = "https://t.me/lyykasden" },
-		{ link = { href = "https://toyhou.se/LyykaPaws/characters", text = "ToyHouse", icon = "link"}}
+		#{ link = { href = "https://toyhou.se/LyykaPaws/characters", text = "ToyHouse", icon = "link"}}
+		{ toyhouse = { href = "https://toyhou.se/LyykaPaws/characters", text = "ToyHouse"} },
 	]
 
 
