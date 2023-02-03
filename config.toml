@@ -1,5 +1,4 @@
 baseurl = "/"
-title = 'LyykaPaws'
 theme = 'lynx'
 
 enableEmoji = true
@@ -7,7 +6,6 @@ disableKinds = ["taxonomy", "term"]
 
 [author]
 	name = "LyykaPaws"
-	headline = "Just a fluffy dog who wants to make everyone's day a bit happier."
 	image = "dog.png"
 	links = [
 		{ github = "https://github.com/LyykaPaws" },
