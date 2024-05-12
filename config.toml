@@ -17,6 +17,7 @@ disableKinds = ["taxonomy", "term"]
 		#{ link = { href = "https://toyhou.se/LyykaPaws/characters", text = "ToyHouse", icon = "link"}}
 		{ toyhouse = { href = "https://toyhou.se/LyykaPaws/characters", text = "ToyHouse"} },
 		{ telegram = { href = "https://t.me/snugglepuppy", text = "Contact me on Telegram"}},
+		{ bluesky = { href = "https://bsky.app/profile/lyykapaws.com", text = "BlueSky"}}
 	]
 
 
