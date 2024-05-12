@@ -1,29 +1,27 @@
-baseurl = "/"
-theme = 'lynx'
+baseURL = "/"
+languageCode = "en"
+defaultContentLanguage = "en"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
-[author]
-	name = "LyykaPaws"
-	image = "dog.png"
-	links = [
-		{ github = "https://github.com/LyykaPaws" },
-		{ twitter = "https://twitter.com/LyykaPaws" },
-		{ twitch = "https://twitch.tv/lyykapaws" },
-		{ youtube = "https://youtube.com/@lyykapaws" },
-		#{ discord = "https://discord.gg/tVyqBbT" },
-		#{ telegram = "https://t.me/lyykasden" },
-		#{ link = { href = "https://toyhou.se/LyykaPaws/characters", text = "ToyHouse", icon = "link"}}
-		{ toyhouse = { href = "https://toyhou.se/LyykaPaws/characters", text = "ToyHouse"} },
-		{ telegram = { href = "https://t.me/snugglepuppy", text = "Contact me on Telegram"}},
-		{ bluesky = { href = "https://bsky.app/profile/lyykapaws.com", text = "BlueSky"}}
-	]
+[params.author]
+   name = "Lyyka"
+   headline = "A silly dog on the internet"
+   image = "author.jpg"  # path relative to static directory
 
+  links = [
+     { bluesky = "https://bsky.app/profile/lyykapaws.com" },
+     { github = "https://github.com/lyykapaws" },
+     { twitch = "https://twitch.tv/lyykapaws" },
+     { twitter = "https://twitter.com/LyykaPaws" },
+     { youtube = "https://youtube.com/@lyykapaws" },
+  ]
 
-[markup.highlight]
-	noClasses = false
-
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.86.1"
 [markup.goldmark]
 [markup.goldmark.renderer]
-	unsafe = true
+  unsafe = true
