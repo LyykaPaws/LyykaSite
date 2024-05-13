@@ -12,10 +12,10 @@ disableKinds = ["taxonomy", "term"]
 
   links = [
      { bluesky = "https://bsky.app/profile/lyykapaws.com" },
-     { github = "https://github.com/lyykapaws" },
-     { twitch = "https://twitch.tv/lyykapaws" },
      { twitter = "https://twitter.com/LyykaPaws" },
+     { twitch = "https://twitch.tv/lyykapaws" },
      { youtube = "https://youtube.com/@lyykapaws" },
+     { github = "https://github.com/lyykapaws" },
   ]
 
 [module]
