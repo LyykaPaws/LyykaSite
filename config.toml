@@ -12,7 +12,6 @@ disableKinds = ["taxonomy", "term"]
 
   links = [
      { bluesky = "https://bsky.app/profile/lyykapaws.com" },
-     { twitter = "https://twitter.com/LyykaPaws" },
      { twitch = "https://twitch.tv/lyykapaws" },
      { youtube = "https://youtube.com/@lyykapaws" },
      { github = "https://github.com/lyykapaws" },
